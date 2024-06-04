@@ -17,7 +17,8 @@
     const STATUS_READY = 1;
     const STATUS_REFRESH = 2;
     // labels of pull down
-    const LABELS = ['数据异常', '下拉刷新数据', '松开刷新数据', '数据刷新中...'];
+    // const LABELS = ['数据异常', '下拉刷新数据', '松开刷新数据', '数据刷新中...'];
+    const LABELS = ['', '', '', ''];
     const ANIMATION = 'height .2s ease';
 
     export default {
@@ -224,7 +225,6 @@
         height: 0px;
         overflow: hidden;
         position: relative;
-        background-color: #2c3133;
     }
     .pull-down-content {
         position: absolute;
